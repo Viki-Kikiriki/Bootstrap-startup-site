@@ -168,4 +168,11 @@ p{
         position: static;
         transform: rotate(0); 
     }
+    .navbar-nav.ml-auto{
+        float:right;
+        text-align: right;
+    }
+    .nav-item{
+        padding: 0;
+    }
 }
