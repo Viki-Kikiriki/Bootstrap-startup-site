@@ -1,0 +1,171 @@
+/******************BASIC SETTINGS******************/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 800;
+}
+p{
+    color: #8f8f8f;
+    font-weight: 500;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+/******************HEADINGS******************/
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/******************CONTAINERS******************/
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/******************SECTIONS******************/
+
+.white-section{
+    background-color: white;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+/******************NAVIGATION BAR******************/
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/******************HEADER BUTTONS******************/
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/******************TITLE SECTION******************/
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+.title-image{
+    position: absolute;
+    right: 30%;
+    transform: rotate(25deg);
+    width: 60%;
+}
+
+/******************FEATURES******************/
+
+#features{
+    position: relative;
+}
+.feature-box{
+    padding: 5%;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+#features div i{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+#features div i:hover{
+    color: #ff4c68;
+}
+#features div p{
+    font-size: 1rem;
+}
+
+/******************TESTIMONIALS******************/
+
+#testimonials{
+    background-color:#ef8172;
+}
+.testimonial-image{
+    border-radius: 50%;
+    margin: 20px;
+    width: 10%;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+/******************PRESS******************/
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/******************PRICING******************/
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/******************CALL TO ACTION******************/
+
+#cta{
+    color: white;
+}
+
+
+/******************FOOTER******************/
+
+#footer{
+    background-color:white;
+}
+#footer i{
+    color: #343a40;
+}
+#footer a{
+    margin: 5px;
+    padding: 5px;
+}
+#footer i:hover{
+    color: #8f8f8f;
+}
+#footer p{
+    padding: 15px 0; 
+}
+/******************MEDIA QUERY******************/
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0); 
+    }
+}
